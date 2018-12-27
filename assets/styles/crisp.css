@@ -235,7 +235,8 @@ footer a:hover {
 .author-template .cover-image {
     background-size: cover;
     background-position: center;
-    min-height: 256px;
+    border-radius: 6px;
+    min-height: 300px;
     width: 100%;
 }
 .author-template .hi {
