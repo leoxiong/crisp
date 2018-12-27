@@ -1,0 +1,9 @@
+{{!< default}}
+{{#author}}
+    <section class="author-profile">
+        <div class="cover-image" style="background-image: url('{{cover_image}}')"></div>
+        <h1 class="author-title"><span class="hi">Hi, I'm </span>{{name}}</h1>
+        <!--<img src="{{cover_image}}" class="cover-image" alt="{{name}}'s Cover Picture"/>-->
+        {{#if bio}}<p class="author-bio">{{bio}}</p>{{/if}}
+    </section>
+{{/author}}
